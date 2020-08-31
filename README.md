@@ -1,0 +1,3 @@
+
+AudioTrack只能播放已经解码的PCM流，仅支持播放wav格式的音频文件，因为wav格式的音频文件大部分都是PCM流。 
+AudioTrack不创建解码器，所以只能播放不需要解码的wav文件。 
